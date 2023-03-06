@@ -25,6 +25,34 @@
   <label for="formGroupExampleInput" class="form-label"> Date Commande</label>
   <input type="text" class="form-control" id="formGroupExampleInput" name="dateC" placeholder="AAAA-MM-JJ" >
 </div>
+
+<label>Mode de paiement</label>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Paypal</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Carte bleue</label>
+</div>
+
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label"> Numero de compte</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" name="numeroCompte"  >
+</div>
+
+<label>CB</label>
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label"> Numero de carte</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" name="numeroCarte"  >
+</div>
+
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label"> Date d'expiration</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" name="dateExpiration" placeholder="AAAA-MM-JJ" >
+</div>
+
+
 <button type="submit" class="btn btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
   <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
 </svg>Envoyer</button>

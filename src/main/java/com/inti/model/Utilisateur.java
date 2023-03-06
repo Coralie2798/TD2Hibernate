@@ -19,6 +19,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+/*
+ * classe utilisateur:...
+ */
 @Entity
 @Table
 @Inheritance(strategy=InheritanceType.JOINED)
